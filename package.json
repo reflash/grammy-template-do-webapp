@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "deno run --allow-net bot.ts",
+    "start:debug": "DEBUG=grammy* deno run --allow-net --allow-env bot.ts"
+  },
+  "dependencies": {
+    "grammy": "^1.11.2"
+  }
+}
