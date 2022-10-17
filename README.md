@@ -10,3 +10,6 @@
 
 - create .env file - use .env.example as a template
 - yarn install
+
+**Deployment**:
+- create DIGITALOCEAN_ACCESS_TOKEN secrets in Github repor
