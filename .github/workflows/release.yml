@@ -12,7 +12,6 @@ jobs:
     - uses: denoland/setup-deno@v1
       with:
         deno-version: v1.x
-    - run: yarn build
     - name: DigitalOcean App Platform deployment
       uses: digitalocean/app_action@main
       with:
