@@ -3,6 +3,7 @@
     "start": "deno run --allow-net bot.ts",
     "start:debug": "DEBUG=grammy* deno run --allow-net --allow-env bot.ts",
     "build:docker": "docker build -t app .",
-    "start:docker": "docker run -it --env-file ./.env --init -p 1993:1993 app"
+    "start:docker": "docker run -it --env-file ./.env --init -p 3000:3000 app",
+    "sh:docker": "docker run -it --entrypoint=/bin/sh app"
   }
 }
