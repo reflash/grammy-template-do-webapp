@@ -10,7 +10,6 @@ export function runServer(port: number) {
         await oak.send(ctx, 'index.html');
       })
       .get('/static/:path(.*)', async ctx => {
-        console.log(ctx.request.url.pathname);
         await oak.send(ctx, 'dist/build' + ctx.request.url.pathname);
       })
   
