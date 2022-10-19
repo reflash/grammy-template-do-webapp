@@ -8,7 +8,7 @@ bot.on("message", (ctx) => {
     const inlineKeyboard = new InlineKeyboard().webApp(
         "Start react app",
         // use ngrok to test on local ngrok http http://<localhost or docker ip>:3000/ -region eu
-        "https://fe74-88-103-226-147.eu.ngrok.io",
+        "https://orca-app-o8frq.ondigitalocean.app/",
       );
     return ctx.reply("Got another message!", {
         reply_markup: inlineKeyboard,
